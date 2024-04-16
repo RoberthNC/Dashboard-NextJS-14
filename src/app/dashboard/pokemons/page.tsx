@@ -12,6 +12,7 @@ const getPokemons = async (
     id: pokemon.url.split("/").at(-2)!,
     name: pokemon.name,
   }));
+  throw new Error("Ha ocurrido un error");
   return pokemons;
 };
 
