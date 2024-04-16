@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { CartCounter } from "../../shopping-cart/";
+import { CartCounter } from "@/shopping-cart";
 
 export const metadata: Metadata = {
   title: "Counter Page",
