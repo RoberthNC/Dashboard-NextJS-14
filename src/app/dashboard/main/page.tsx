@@ -1,4 +1,4 @@
-import { SimpleWidget } from "@/components/SimpleWidget";
+import { SimpleWidget } from "@/components/dashboard/SimpleWidget";
 
 export default function MainPage() {
   return (
