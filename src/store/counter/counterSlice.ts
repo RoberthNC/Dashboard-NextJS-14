@@ -23,7 +23,7 @@ const counterSlice = createSlice({
       state.count++;
     },
     substractOne(state) {
-      if (state.count) return;
+      if (state.count <= 0) return;
       state.count--;
     },
     resetCount(state, action: PayloadAction<number>) {
