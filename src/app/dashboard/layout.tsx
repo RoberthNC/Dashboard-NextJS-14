@@ -4,7 +4,7 @@ import { Sidebar } from "@/components/Sidebar";
 
 export const metadata: Metadata = {
   title: "Dashboard - Administrativo",
-  description: "This is the Counter Dashboard",
+  description: "This is the main Dashboard",
   keywords: ["Dashboard", "Counter"],
 };
 
